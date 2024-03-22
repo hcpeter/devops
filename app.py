@@ -18,6 +18,8 @@ def index():
                 result = number1 - number2
             elif operation == 'multiply':
                 result = number1 * number2
+            elif operation == 'divide':
+                result = number1 / number2
         except ValueError:
             result = "Please enter valid numbers."
 
